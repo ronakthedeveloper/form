@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="registration.css">
+</head>
+<body>
+    <Form action="db.php" method="post">
+        <fieldset>
+            <legend><h2>Sign - up</h2></legend>
+            <div class="container">
+                <h1>Create a new Account!!!</h1>
+                <br>
+                <br>
+                <label class="name">
+                    First Name :
+                    <input type="text" name="ufname">
+                </label>
+                <br>
+                <br>
+                <label class="name">
+                    Last Name :
+                    <input type="text" name="ulname">
+                </label>
+                <br>
+                <br>
+                <label class="name">
+                    Father Name :
+                    <input type="text" name="ufaname">
+                </label>
+                <br>
+                <br>
+                <label class="name">
+                    Email :
+                    <input type="email" name="uemail">
+                </label>
+                <br>
+                <br>
+                <label class="name">
+                    Phone No. :
+                    <input type="number" name="unumber">
+                </label>
+                <br>
+                <br>
+                <label class="name">
+                    Date of Birth :
+                    <input type="date" name="udob">
+                </label>
+                <br>
+                <br>
+                <label class="name">
+                    Qualification :
+                    <input type="checkbox" name="ucheck">10th
+                    <input type="checkbox" name="ucheck">12th
+                    <input type="checkbox" name="ucheck">U.G.
+                    <input type="checkbox" name="ucheck">P.G.
+                </label>
+                <br>
+                <br>
+                <label class="name">
+                    Gender :
+                    <input type="radio" name="uradio">Male
+                    <input type="radio" name="uradio">Female
+                    <input type="radio" name="uradio">Other
+                </label>
+                <br>
+                <br>
+                <label class="name">
+                    Area :
+                    <Select name="uselect">
+                        <option value=""> </option>
+                        <option value="">Delhi</option>
+                        <option value="">Mumbai</option>
+                        <option value="">Banglore</option>
+                        <option value="">Kolkata</option>
+                    </Select>
+                </label>
+                <br>
+                <br>
+                <input type="submit" name="save" class="submit">
+                <input type="reset" name="reset" class="reset">
+            </div>
+        </fieldset>
+    </Form>
+</body>
+</html>

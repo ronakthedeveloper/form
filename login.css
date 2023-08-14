@@ -1,0 +1,82 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    margin: 50px;
+    padding: 5px;
+    width: 30%;
+    background-color: lightblue;
+}
+form{
+    background-color: lightcyan;
+    border: 2px solid black;
+}
+
+.container{
+    margin: 10px;
+    padding: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.user{
+    margin: 20px;
+    padding: 10px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.pass{
+    margin: 20px;
+    padding: 10px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.submit{
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 5px;
+    font-size: 15px;
+    margin-left: 10px;
+}
+.reset{
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 5px;
+    font-size: 15px;
+    margin-left: 20px;
+}
+.foruser{
+    margin-left: 30px;
+    text-decoration: none;
+    color: blue;
+    padding: 10px;
+}
+.forpass{
+    padding: 10px;
+    text-decoration: none;
+    color: blue;
+}
+input{
+    font-size: 125%;
+    margin-left: 20px;
+    font-weight: bold;
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 30px;
+    text-align: center;
+    margin: 20px;
+}
+.sign{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px;
+
+
+}
+.sign a{
+    text-decoration: none;
+    color: blue;
+}
